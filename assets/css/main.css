@@ -1,0 +1,49 @@
+:root{
+    --color-nav: rgb(131, 129, 129);
+    --color-nav-dark:rgb(28, 52, 75);
+    --color-section: purple;
+    --color-aside:rgb(153, 132, 10);
+    --color-footer:rgb(25, 0, 255);
+    --color-red:rgb(225, 29, 29);
+    --color-grey:rgb(192, 191, 191);
+    --color-black:#000000;
+    --color-white: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Trebuchet MS';
+}
+
+@media screen and (min-width:798px){
+  .nav-container{
+    display: flex;
+  }
+}
+
+.nav-container__item1{
+  flex-grow: 1;
+    text-align: center;
+  line-height: 2.5;
+  background: var(--color-red);
+  color: var(--color-white);
+
+}
+
+.nav-container__item2{
+    flex-grow: 1;
+  text-align: center;
+  line-height: 2.5;
+ background: var(--color-grey);
+  color: var(--color-white);
+}
+
